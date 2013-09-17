@@ -1,6 +1,5 @@
 function hello() {
 alert("Hello Clarice!");
-}
 
 var sBrowser, sUsrAg = navigator.userAgent;
 if(sUsrAg.indexOf("Chrome") > -1) {
@@ -15,3 +14,4 @@ if(sUsrAg.indexOf("Chrome") > -1) {
 	sBrowser = "Internet Explorer";
 }
 alert("You are using: " + sBrowser);
+}
