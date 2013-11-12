@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lucas Strom</title>
+        <meta name="description" content="Homepage for Lucas Strom">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+     <header>
+     	<h1> Lucas Strom </h1>
+        <h2> MSU Student, Onsted, MI </h2>
+     </header>
+     <div id="map-location" data-0="background-image:url(img/map_b&w.jpg);opacity:.5;" data-500="background-image:url(img/map.jpg);opacity:1;" data-800="opacity:.5;">
+     </div>
+     <nav data-0="position:absolute;top:800px;" data-800="position:absolute;top:800px;" data-1500="position:absolute;top:1550px;">
+     	<ul>
+        	<li><a href="#about"> About </a></li>
+            <li><a href="#portfolio"> Portfolio </a></li>
+            <li><a href="#Field Experience"> Workplace Experience </a></li>
+            <li><a href="#contact"> Contact </a></li> 
+     	</ul>
+     </nav>
+     <article>
+     	<section id="about">
+        	<h3> About Lucas </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies ipsum laoreet, imperdiet diam ut, mollis est. Aliquam blandit leo nec mi condimentum, scelerisque malesuada diam sagittis. Ut pharetra feugiat lorem, suscipit molestie odio facilisis in. Phasellus laoreet auctor nisl, non imperdiet erat malesuada sit amet. </p>
+        </section>
+        <section id="portfolio">
+        	<h3> Portfolio </h3>
+            <ul class="gallery">
+            	<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+                <li><img alt="portfolio" src="img/portfolio.jpg"></li>
+            </ul>
+        </section>
+        <section id="Field Experience">
+        	<h3> Work Experience </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies ipsum laoreet, imperdiet diam ut, mollis est. Aliquam blandit leo nec mi condimentum, scelerisque malesuada diam sagittis. Ut pharetra feugiat lorem, suscipit molestie odio facilisis in. Phasellus laoreet auctor nisl, non imperdiet erat malesuada sit amet. </p>
+        </section>
+        <section id="contact">
+        	<h3> Contact Me </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies ipsum laoreet, imperdiet diam ut, mollis est. Aliquam blandit leo nec mi condimentum, scelerisque malesuada diam sagittis. Ut pharetra feugiat lorem, suscipit molestie odio facilisis in. Phasellus laoreet auctor nisl, non imperdiet erat malesuada sit amet. </p>
+        </section>
+     </article> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+		if ($(window).width() > "600px") {
+    		var s = skrollr.init();
+			//The options (second parameter) are all optional. The values shown are the default values.
+skrollr.menu.init(s, {
+    //skrollr will smoothly animate to the new position using `animateTo`.
+    animate: true,
+
+    //The easing function to use.
+    easing: 'sqrt',
+
+    //How long the animation should take in ms.
+    duration: function(currentTop, targetTop) {
+        //By default, the duration is hardcoded at 500ms.
+        return 500;
+
+		},
+	});
+}
+
+    </script> 
+    </body>
+</html>
