@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Lucas Strom</title>
+        <meta name="description" content="Homepage for Lucas Strom">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+     <header>
+     	<h1 id="name"> Lucas Strom </h1>
+        <h2 id="location"> Media and Information, Onsted, MI </h2>
+     </header>
+     
+     <nav>
+     	<ul>
+        	<li><a href="index.html"> Home </a></li>
+            <li><a href="bio.html"> Biography </a></li>
+            <li><a href="resume.html"> Resume </a></li>
+            <li><a href="contact.html"> Contact </a></li> 
+     	</ul>
+     </nav>
+     <img id="me" src="images/bio.JPG" alt="" height= 300 width= 250>
+     	<section id="about">
+        	<h3> Biography </h3>
+            <p> Born on September 3rd, 1991 in Adrian, MI, I spent the entirety of my childhood growing up in the small town of Onsted, MI just 15 minutes from Adrian in Lenawee County. From an early age I had an extensive vocabulary and was often praised for being extremely well behaved in school. My interest in computers and computer related systems began around the age of thirteen when I built my first desktop computer from scratch (with the help of my uncle in picking out compatible parts to ensure that my creation would actually work.)</p> 
+            <p>During my High School career I was involved in many extracurricular activities and accumulated many awards. I was in the marching and concert bands as a percussionist from 6th grade until just after my Junior year of High School. I also played baseball and basketball all four years, as well as playing football my senior year. As a baseball player I earned the most improved player award as a pitcher and third baseman, described as a "bulldog" by coaches and teammates when describing my work ethic. As a student athlete I was awarded the scholar athlete award nine times (one for each semester I played a sport.)</p> 
+            <p>I was also a member of the Onsted Academic Club and a member of the National Honors Society. After graduating High School, I was able to secure a summer internship at a nearby automotive stamping plant. While I started as an intern in the quality control department I soon got re-assigned to the IT department as I had originally been hoping to intern in IT.</p>
+            <p> Entering my Freshman year at MSU I struggled mightily to adjust, finishing Freshman year on final probation after going through an appeals process to prove I was dedicated to raising my GPA. The past two years I have raised my GPA back to 2.55. </p>
+        </section>
+        
+       <footer>
+       	<p> Posted by: Lucas Strom for TC349 </p>
+        <p> Backgroud image property of <a href="subtlepatterns.com">subtlepatterns.com</a></p>
+                
+       </footer> 
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+		if ($(window).width() > "600px") {
+    		var s = skrollr.init();
+			//The options (second parameter) are all optional. The values shown are the default values.
+skrollr.menu.init(s, {
+    //skrollr will smoothly animate to the new position using `animateTo`.
+    animate: true,
+
+    //The easing function to use.
+    easing: 'sqrt',
+
+    //How long the animation should take in ms.
+    duration: function(currentTop, targetTop) {
+        //By default, the duration is hardcoded at 500ms.
+        return 500;
+
+		},
+	});
+}
+
+    </script> 
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Lucas Strom</title>
+        <meta name="description" content="Homepage for Lucas Strom">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+     <header>
+     	<h1 id="name"> Lucas Strom </h1>
+        <h2 id="location"> Media and Information, Onsted, MI </h2>
+     </header>
+     
+     <nav data-0="position:absolute;top:400px;" data-400="position:absolute;top:400px;" data-700="position:absolute;top:800px;">
+     	<ul>
+        	<li><a href="index.html"> Home </a></li>
+            <li><a href="bio.html"> Biography </a></li>
+            <li><a href="resume.html"> Resume </a></li>
+            <li><a href="contact.html"> Contact </a></li> 
+     	</ul>
+     </nav>
+     <section id="testimonials">
+     	<h2>Client Testimonials</h2>
+        <ul id="statement1">
+        	<li>"Lucas was a huge help over the last two days. I was surprised and appreciative when he stopped to check that the computers were working. When my staff had to move our entire sale location we had some issues but Lucas arrived and had them both functioning within a sufficient amount of time...Thank you for everything"- Krystin Maloney, Pro Shop Manager, Forest Akers Golf Course</li></ul><br>
+           <ul id="statement2"> <li>"Lucas' efforts were beyond what we expected and we are grateful."- Brenda Nelson, East Neighborhood Dining Services Complex Manager</li>
+            </ul>
+           </section>
+     	<section id="resume">
+        	<iframe src="resume.pdf" style="width:700px; height:900px;"></iframe>
+        </section>
+        
+       <footer>
+       	<p> Posted by: Lucas Strom for TC349 </p>
+        <p> Backgroud image property of <a href="subtlepatterns.com">subtlepatterns.com</a></p>
+                
+       </footer> 
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+		if($(window).width() > 600) {
+    		var s = skrollr.init();
+			//The options (second parameter) are all optional. The values shown are the default values.
+skrollr.menu.init(s, {
+    //skrollr will smoothly animate to the new position using `animateTo`.
+    animate: true,
+
+    //The easing function to use.
+    easing: 'sqrt',
+
+    //How long the animation should take in ms.
+    duration: function(currentTop, targetTop) {
+        //By default, the duration is hardcoded at 500ms.
+        return 500;
+
+		},
+	});
+   }
+
+
+
+ </script> 
+</body>
+</html>
